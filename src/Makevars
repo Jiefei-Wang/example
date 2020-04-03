@@ -1,7 +1,0 @@
-test1 := $(shell $(R_HOME)/bin/R --slave -e 'runif(3)')
-
-all: 
-	echo "test1 is $(test1)"
-	echo "R_HOME is $(R_HOME)"
-	echo "Fake library" > testPackage.dll
-

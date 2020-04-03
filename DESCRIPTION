@@ -8,3 +8,11 @@ Maintainer: Your Name <your@email.com>
 Description: One paragraph description of what the package does as one or more
          full sentences.
 Encoding: UTF-8
+LinkingTo: 
+    Rcpp
+Depends: 
+    R (>= 3.6.0)
+Imports: 
+    Rcpp
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
